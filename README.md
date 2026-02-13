@@ -1,5 +1,1 @@
-First attempt at creating software to interact with the Kalshi API and learn how to make trades.
-
-I attempted to model tennis odds using prior data, but I've scrapped this approach to finding an edge as past data doesn't seem to be reliable in the ways I'm utilising it.
-
-Currently, I'm attempting to model tennis games in different ways to explore the dynamics of tennis "odds" over time.
+I used Jeff Sackmann's Tennis Data in order to create a predictive probability model of tennis games based off past games, elo, court conditions, serve percentage, etc. I then integrated it with the Kalshi API in order to incorporate the ability to paper trade & live trade directly through a terminal window, with live P&L and portfolio statistics that update in real time.
